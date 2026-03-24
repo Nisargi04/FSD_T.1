@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            var obj={
+                "name":"abc",
+                "marks":24
+            }
+           
+            var s=JSON.stringify(obj)
+            document.write(s)
+            var n=JSON.parse(s)
+            document.write(n.name)
+            //document.write(s.name)
+            var obj1='{"name":"xyz","age":15}';
+            var p=JSON.parse(obj1)
+            document.write(p.name)
+            obj.marks=21;
+            obj["name"]="mno";
+            console.log(obj)
+            var k="name"
+            obj[k]="pqr"
+        </script>
+    </head>
+</html>

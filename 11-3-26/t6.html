@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            const student = 
+    [
+        {
+            "name": "abc",
+            "age": 30
+        },
+        {
+            "name": "xyz",
+            "age": 52
+        },
+        {
+            "name": "pqr",
+            "age": 43
+        }
+    ] 
+        var e=student.sort((a,b)=>b.age-a.age);
+        for(i of e)
+        {
+            console.log(i.name+" "+i.age);
+        }
+        console.log("higest age of employee is "+e[0].age)
+        document.write(`<h1> ${e[0].name} is an employee with the highest age ${e[0].age}`)
+        document.write(`<h1> ${e[e.length-1].name} is an employee with the lowest age ${e[e.length-1].age}`)
+        console.log(Math.max(...student.map(e=>e.age)))//three dots represent rest or speard it will wither combine all the elements of an array or expand all the elements of an array. math.max will not work on array,it will only work on coma seperated numbers list that why we used three dots we are seperating all the elements of array.
+    </script>
+    </head>
+</html>

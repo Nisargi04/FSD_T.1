@@ -1,0 +1,28 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <table border="1">
+            <tr></tr><th>topic</th>
+            <th>phase</th></tr>
+            <tr>
+                <td id="i" ></td>
+                <td id="t" ></td>
+            </tr>
+            <tr>
+                <td id="n" ></td>
+                <td id="k" ></td>
+            </tr>
+        </table>
+    </body>
+</html>
+<script>
+    var a={"fsd":[{"topic":"json","phase":"t1"},{"topic":"express","phase":"t2"}]}
+    
+        document.getElementById("i").innerHTML=a.fsd[0].topic;
+        document.getElementById("t").innerHTML=a.fsd[0].phase;
+        document.getElementById("n").innerHTML=a.fsd[1].topic;
+        document.getElementById("k").innerHTML=a.fsd[1].phase;
+    
+</script>
