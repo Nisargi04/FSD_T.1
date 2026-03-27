@@ -1,0 +1,2 @@
+{"year":"2025","t1":"22","t2":"18","t3":"23"}
+total marks of t1,t2 and t3 is 63
