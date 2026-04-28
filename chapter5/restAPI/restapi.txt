@@ -1,0 +1,6 @@
+rest api
+representational state transfer
+var router=express.Router()
+restapi==common path mate
+path ne easily manage karva 
+moto project hoi tyare use karvu
