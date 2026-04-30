@@ -1,0 +1,19 @@
+<table  border="2px">
+    <th>name</th>
+    <th>subject</th>
+    <th>marks1</th>
+    <th>marks2</th>
+    <th>total</th>
+
+    <tr>
+        <td><%= n %></td>
+        <td><%= s %></td>
+        <td><%= m %></td>
+        <td><%= m1 %></td>
+        <td><%= total %></td>
+    </tr>
+</table>
+<% if(total>35) {%>
+<h3>you are <span style="color:green">pass</span></h3>
+<%}else{ %> you are <span style="color:red">fail</span></h3>
+<%} %>
